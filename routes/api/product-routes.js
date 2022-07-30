@@ -42,7 +42,7 @@ router.get("/:id", (req, res) => {
         attributes: ["id", "category_name"],
       },
       {
-        model: EventTarget,
+        model: Tag,
         attributes: ["tag_name", "id"],
       },
     ],
